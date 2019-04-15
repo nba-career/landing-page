@@ -1,13 +1,13 @@
 .hero {
   background: linear-gradient(90deg, rgba(2,0,36,1) 7%, rgba(38,102,91,1) 59%, rgba(14,45,51,1) 100%);
-  padding: 0 0 6rem;
+  padding: 0 0 8rem;
   background-size: cover;
 }
 
 .hero--content {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 6rem 0 0;
+  padding: 10rem 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,10 +27,19 @@
 
 .intro-content {
   margin: 3rem 0;
+  
+  .col-half:last-child {
+    margin-left: 3%;
+
+    @media @tablet {
+      margin-left: 0;
+    }
+  }
 
   h2 {
     margin-bottom: 1.5rem;
   }
+
 }
 
 .button {
@@ -47,7 +56,17 @@
 }
 
 .middle-content {
-  margin: 3rem 0;
+  margin: 10rem 0;
+
+  .text-content {
+    max-width: 570px;
+    margin: 0 auto;
+    text-align: center;
+
+    h2 {
+      margin-bottom: 1rem;
+    }
+  }
 }
 
 .cards {
@@ -65,7 +84,10 @@
     border-radius: 1rem;
     box-shadow: 4px 3px 5px 4px rgba(0,0,0,0.3);
     max-width: 25%;
-
+    margin-bottom: 1.5rem;
+    @media @tablet {
+      max-width: 100%;
+    }
   }
 }
 

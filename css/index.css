@@ -170,6 +170,7 @@ img {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 1.5rem;
 }
 .align-center {
   display: flex;
@@ -197,6 +198,7 @@ img {
   color: #fcfcfc;
   font-size: 1.9rem;
   text-decoration: none;
+  display: inline-block;
 }
 .main-footer {
   background: #889696;
@@ -207,13 +209,13 @@ img {
 }
 .hero {
   background: linear-gradient(90deg, #020024 7%, #26665b 59%, #0e2d33 100%);
-  padding: 0 0 6rem;
+  padding: 0 0 8rem;
   background-size: cover;
 }
 .hero--content {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 6rem 0 0;
+  padding: 10rem 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -231,6 +233,14 @@ img {
 .intro-content {
   margin: 3rem 0;
 }
+.intro-content .col-half:last-child {
+  margin-left: 3%;
+}
+@media (max-width: 768px) {
+  .intro-content .col-half:last-child {
+    margin-left: 0;
+  }
+}
 .intro-content h2 {
   margin-bottom: 1.5rem;
 }
@@ -246,7 +256,15 @@ img {
   color: #191919;
 }
 .middle-content {
-  margin: 3rem 0;
+  margin: 10rem 0;
+}
+.middle-content .text-content {
+  max-width: 570px;
+  margin: 0 auto;
+  text-align: center;
+}
+.middle-content .text-content h2 {
+  margin-bottom: 1rem;
 }
 .cards {
   margin: 3rem 0;
@@ -262,6 +280,12 @@ img {
   border-radius: 1rem;
   box-shadow: 4px 3px 5px 4px rgba(0, 0, 0, 0.3);
   max-width: 25%;
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 768px) {
+  .cards .card {
+    max-width: 100%;
+  }
 }
 .team-members {
   margin: 3.5rem 0;
