@@ -126,6 +126,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
 }
@@ -188,8 +191,16 @@ img {
   justify-content: space-evenly;
 }
 .main-navigation a {
-  color: #e0e2db;
+  color: #fcfcfc;
   font-size: 1.9rem;
+  text-decoration: none;
+}
+.main-footer {
+  background: #889696;
+  padding: 3rem 0;
+}
+.main-footer p {
+  color: #fcfcfc;
 }
 .hero {
   background: linear-gradient(90deg, #020024 7%, #26665b 59%, #0e2d33 100%);
@@ -205,11 +216,11 @@ img {
   align-items: center;
 }
 .hero--content h1 {
-  color: #e0e2db;
+  color: #fcfcfc;
   margin-bottom: 1.5rem;
 }
 .hero--content p {
-  color: #e0e2db;
+  color: #fcfcfc;
   max-width: 620px;
   text-align: center;
   margin: 0 auto 2.5rem;
@@ -230,4 +241,26 @@ img {
 .button--white {
   background: #e0e2db;
   color: #191919;
+}
+.carousel-area {
+  padding: 2rem 0;
+}
+.carousel {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 500px;
+}
+.carousel img {
+  display: none;
+}
+.carousel-navigation {
+  text-align: center;
+}
+.carousel-navigation button {
+  background: #e0e2db;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
 }
