@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,body {
+  font-family: 'Karla', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1.2;
+  margin: 0 0 1rem 0;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  color: @black;
+  margin: 0 0 0.8rem 0;
+}
+
+a {
+  font-size: 1.6rem;
+}
+
+button {
+  font-family: 'Karla', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col-half {
+  width: 48%;
+  padding-right: 1%;
+
+  @media @tablet {
+    width: 100%;
+    padding: 0 2%;
+  }
+}
