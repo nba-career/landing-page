@@ -9,7 +9,7 @@
   .form-container {
     max-width: 600px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 2.5rem 3.5rem;
     border-radius: 3px;
   }
 
@@ -21,28 +21,23 @@
 
   .form-row label {
     flex: 1;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
   }
 
   .form-row input {
     padding: 10px 20px 10px 5px;
     width: auto;
     flex: 3;
-    border: 2px solid @black;
-    border-radius: 4px;
-    font-size: 14px;
+    border: 0;
+    border-radius: 0.6rem;
+    box-shadow: 0 8px 24px 0 rgba(0,0,0,0.35);
+    font-size: 1.5rem;
     transition: 0.2s all ease-in-out;
   }
 
-  .form-row textarea:focus, 
   .form-row input:focus{
     outline: none;
-    border: 2px solid #2F2F2F;
-    box-shadow: 1px 3px 0 rgba(0,0,0,0.8);
-  }
-
-  .submit-row {
-    display: flex;
+    box-shadow: 0 8px 24px 0 rgba(0,0,0,0.65);
   }
 
 }
