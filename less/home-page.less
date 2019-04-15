@@ -1,5 +1,43 @@
 .hero {
-  background-image: url(https://via.placeholder.com/1280x400);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 7%, rgba(38,102,91,1) 59%, rgba(14,45,51,1) 100%);
   padding: 0 0 6rem;
   background-size: cover;
+}
+
+.hero--content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 6rem 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    color: @westar;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    color: @westar;
+    max-width: 620px;
+    text-align: center;
+    margin: 0 auto 2.5rem;
+  }
+}
+
+.intro-content {
+  padding: 3rem 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: 1.4rem 2rem;
+  display: inline-block;
+  font-size: 1.8rem;
+  border-radius: 1rem;
+}
+
+.button--white {
+  background: @westar;
+  color: @black;
 }
