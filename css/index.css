@@ -151,6 +151,9 @@ h1 {
 h2 {
   font-size: 2.4rem;
 }
+h3 {
+  font-size: 2.2rem;
+}
 p {
   font-size: 1.8rem;
   line-height: 1.2;
@@ -245,22 +248,16 @@ img {
 .carousel-area {
   padding: 2rem 0;
 }
-.carousel {
-  margin: 0 auto;
-  max-width: 500px;
-  width: 500px;
+.team-members {
+  margin: 3.5rem 0;
 }
-.carousel img {
-  display: none;
+.team-members .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-.carousel-navigation {
-  text-align: center;
-}
-.carousel-navigation button {
+.team-members .team-member {
   background: #e0e2db;
-  border: 0;
-  border-radius: 5px;
-  padding: 10px 20px;
-  color: white;
-  font-size: 16px;
+  padding: 2rem;
+  margin: 1.5rem 0;
 }

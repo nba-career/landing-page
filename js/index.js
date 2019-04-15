@@ -1,2 +1,2 @@
-const year = document.getElementById('year');
+const year = document.querySelector('.year');
 year.innerHTML = new Date().getFullYear();
