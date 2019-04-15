@@ -229,7 +229,7 @@ img {
   margin: 0 auto 2.5rem;
 }
 .intro-content {
-  padding: 3rem 0;
+  margin: 3rem 0;
 }
 .intro-content h2 {
   margin-bottom: 1.5rem;
@@ -245,8 +245,23 @@ img {
   background: #e0e2db;
   color: #191919;
 }
-.carousel-area {
-  padding: 2rem 0;
+.middle-content {
+  margin: 3rem 0;
+}
+.cards {
+  margin: 3rem 0;
+}
+.cards .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cards .card {
+  background: #fcfcfc;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 4px 3px 5px 4px rgba(0, 0, 0, 0.3);
+  max-width: 25%;
 }
 .team-members {
   margin: 3.5rem 0;
