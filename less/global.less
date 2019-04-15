@@ -2,6 +2,10 @@ html {
   font-size: 62.5%;
 }
 
+html,body {
+  font-family: 'Karla', sans-serif;
+}
+
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Rubik', sans-serif;
   line-height: 1.2;
@@ -16,17 +20,38 @@ h2 {
 }
 
 p {
-  font-family: 'Karla', sans-serif;
   font-size: 1.8rem;
+  line-height: 1.2;
+  color: @black;
 }
 
 a {
-  font-family: 'Karla', sans-serif;
   font-size: 1.6rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col-half {
+  width: 48%;
+  padding-right: 1%;
+
+  @media @tablet {
+    width: 100%;
+    padding: 0 2%;
+  }
 }
