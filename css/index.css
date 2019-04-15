@@ -209,6 +209,14 @@ img {
 .main-footer p {
   color: #fcfcfc;
 }
+.prefooter {
+  background: #d2d4c8;
+  padding: 5rem 0 10rem;
+}
+.prefooter .container {
+  max-width: 680px;
+  text-align: center;
+}
 .hero {
   background: linear-gradient(90deg, #020024 7%, #26665b 59%, #0e2d33 100%);
   padding: 0 0 8rem;
