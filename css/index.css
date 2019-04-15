@@ -164,6 +164,9 @@ p {
 a {
   font-size: 1.6rem;
 }
+button {
+  font-family: 'Karla', sans-serif;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -210,12 +213,44 @@ img {
   color: #fcfcfc;
 }
 .prefooter {
-  background: #d2d4c8;
-  padding: 5rem 0 10rem;
+  background: #e0e2db;
+  padding: 5rem 0 3rem;
 }
 .prefooter .container {
-  max-width: 680px;
   text-align: center;
+}
+.prefooter .form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 3px;
+}
+.prefooter .form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.prefooter .form-row label {
+  flex: 1;
+  font-size: 1.6rem;
+}
+.prefooter .form-row input {
+  padding: 10px 20px 10px 5px;
+  width: auto;
+  flex: 3;
+  border: 2px solid #191919;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: 0.2s all ease-in-out;
+}
+.prefooter .form-row textarea:focus,
+.prefooter .form-row input:focus {
+  outline: none;
+  border: 2px solid #2F2F2F;
+  box-shadow: 1px 3px 0 rgba(0, 0, 0, 0.8);
+}
+.prefooter .submit-row {
+  display: flex;
 }
 .hero {
   background: linear-gradient(90deg, #020024 7%, #26665b 59%, #0e2d33 100%);
@@ -262,7 +297,7 @@ img {
   border-radius: 1rem;
 }
 .button--white {
-  background: #e0e2db;
+  background: #fcfcfc;
   color: #191919;
 }
 .middle-content {
