@@ -209,7 +209,23 @@ img {
   background: #889696;
   padding: 3rem 0;
 }
+.main-footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .main-footer p {
+  color: #fcfcfc;
+}
+.main-footer .social-icons {
+  display: inline-block;
+  margin: 0 2rem;
+}
+.main-footer .social-icons:last-child {
+  margin-right: 0;
+}
+.main-footer .social-icons i {
+  font-size: 1.9rem;
   color: #fcfcfc;
 }
 .prefooter {

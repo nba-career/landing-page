@@ -2,7 +2,26 @@
   background: rgba(136, 150, 150, 1);
   padding: 3rem 0;
 
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   p {
     color: @white;
+  }
+
+  .social-icons {
+    display: inline-block;
+    margin: 0 2rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+    i {
+      font-size: 1.9rem;
+      color: @white;
+    }
   }
 }
