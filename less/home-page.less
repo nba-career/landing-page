@@ -71,7 +71,11 @@
 }
 
 .middle-content {
-  margin: 10rem 0;
+  margin: 8rem 0 10rem;
+
+  @media @tablet {
+    margin: 4rem 0 6rem;
+  }
 
   .text-content {
     max-width: 570px;
@@ -85,7 +89,10 @@
 }
 
 .cards {
-  margin: 3rem 0 5rem;
+  margin: 3rem 0 8rem;
+  @media @tablet {
+    margin: 3rem 0 5rem;
+  }
 
   .container {
     display: flex;
