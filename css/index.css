@@ -194,7 +194,7 @@ img {
   width: 48%;
   padding-right: 1%;
 }
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .col-half {
     width: 100%;
     padding: 0 2%;
@@ -320,7 +320,7 @@ img {
 .alternating-content .col-half:last-child {
   margin-left: 3%;
 }
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .alternating-content .col-half:last-child {
     margin-top: 2rem;
     margin-left: 0;
@@ -352,7 +352,12 @@ img {
   color: #191919;
 }
 .middle-content {
-  margin: 10rem 0;
+  margin: 8rem 0 10rem;
+}
+@media (max-width: 850px) {
+  .middle-content {
+    margin: 4rem 0 6rem;
+  }
 }
 .middle-content .text-content {
   max-width: 570px;
@@ -363,7 +368,12 @@ img {
   margin-bottom: 1rem;
 }
 .cards {
-  margin: 3rem 0 5rem;
+  margin: 3rem 0 8rem;
+}
+@media (max-width: 850px) {
+  .cards {
+    margin: 3rem 0 5rem;
+  }
 }
 .cards .container {
   display: flex;
@@ -378,7 +388,7 @@ img {
   max-width: 25%;
   margin-bottom: 1.5rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .cards .card {
     max-width: 100%;
   }
