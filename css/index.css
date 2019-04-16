@@ -275,6 +275,9 @@ img {
 .button:hover {
   cursor: pointer;
 }
+.button--small {
+  padding: 1rem 1.5rem;
+}
 .button--white {
   background: #fcfcfc;
   color: #191919;
@@ -314,6 +317,9 @@ img {
 .team-members {
   margin: 3.5rem 0;
 }
+.team-members h2 {
+  font-size: 2.8rem;
+}
 .team-members .container {
   display: flex;
   flex-wrap: wrap;
@@ -323,4 +329,9 @@ img {
   background: #e0e2db;
   padding: 2rem;
   margin: 1.5rem 0;
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.35);
+  border-radius: 4px;
+}
+.team-members .team-member h3 {
+  margin: 1.5rem 0 2rem;
 }

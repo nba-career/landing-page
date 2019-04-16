@@ -1,6 +1,18 @@
 class Modal {
   constructor(element) {
     this.element = element;
+
+
+    this.button = this.element.querySelector('button');
+
+    this.button.addEventListener('click', () => {
+      this.openModal();
+    });
+    
+  }
+
+  openModal() {
+    console.log("clicked");
   }
 }
 
