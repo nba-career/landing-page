@@ -1,14 +1,86 @@
 .team-members {
-  margin: 3.5rem 0;
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
+	margin: 3.5rem 0;
 
-  .team-member {
-    background: @westar;
-    padding: 2rem;
-    margin: 1.5rem 0;
-  }
+	h2 {
+		font-size: 2.8rem;
+	}
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+
+	.team-member {
+		background: @westar;
+		padding: 2rem;
+		margin: 1.5rem 0;
+		box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.35);
+		border-radius: 4px;
+
+		h3 {
+			margin: 1.5rem 0 0.5rem;
+    }
+    
+    h4 {
+      font-size: 1.6rem;
+      margin-bottom: 2rem;
+    }
+
+		.modal {
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 990;
+
+			.overlay {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				z-index: 990;
+				background: rgba(0, 0, 0, 0.7);
+			}
+
+			.modal--content {
+				z-index: 995;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				max-height: 90%;
+				overflow: auto;
+				background: @white;
+				padding: 1rem 2.5rem;
+				box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+				border-radius: 4px;
+				width: 350px;
+
+				h2 {
+					font-size: 3rem;
+					margin: 2rem 0 3.5rem;
+					text-align: center;
+				}
+
+			}
+
+			.close-modal {
+				position: absolute;
+				right: 10px;
+				top: 10px;
+				cursor: pointer;
+				font-size: 18px;
+				opacity: 0.5;
+				background: none;
+				border: none;
+				transition: opacity 0.2s cubic-bezier(0.82, 0.43, 0.04, 0.71);
+
+				&:hover {
+					opacity: 0.75;
+				}
+			}
+		}
+	}
 }
