@@ -1,41 +1,50 @@
-.hero {
-  header {
-    padding: 2rem 0 0;
-  }
+.nav-bar {
+  padding: 2rem 0;
+  background: transparent;
+  transition: 0.3s all ease-in;
+  width: 100%;
+  position: fixed;
+  background: linear-gradient(90deg, #020024 7%, #26665b 59%, #0e2d33 100%);
+  z-index: 9999;
+  height: 70px;
+}
+
+.nav-bar.in-view {
+  height: 55px;
 }
 .main-navigation {
-  display: flex;
-  justify-content: space-evenly;
+	display: flex;
+	justify-content: space-evenly;
 
-  a {
-    color: @white;
-    font-size: 1.9rem;
-    text-decoration: none;
-    display: inline-block;
-    transition: 0.25s opacity cubic-bezier(0.88, 0.03, 0.25, 0.87);
-    position: relative;
-    @media @mobile {
-      font-size: 1.5rem;
-    }
+	a {
+		color: @white;
+		font-size: 1.9rem;
+		text-decoration: none;
+		display: inline-block;
+		transition: 0.25s opacity cubic-bezier(0.88, 0.03, 0.25, 0.87);
+		position: relative;
+		@media @mobile {
+			font-size: 1.5rem;
+		}
 
-    &:hover {
-      opacity: 0.8;
-    }
+		&:hover {
+			opacity: 0.8;
+		}
 
-    &:before {
-        content: '';
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: -8px;
-        height: 3px;
-        width: 0;
-        background: @white;
-        transition: 0.26s width cubic-bezier(0, 1.07, 1, 1);
-    }
+		&:before {
+			content: '';
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			bottom: -8px;
+			height: 3px;
+			width: 0;
+			background: @white;
+			transition: 0.26s width cubic-bezier(0, 1.07, 1, 1);
+		}
 
-    &:hover::before {
-      width: 100%;
-    }
-  }
+		&:hover::before {
+			width: 100%;
+		}
+	}
 }
