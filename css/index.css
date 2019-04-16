@@ -222,6 +222,10 @@ img {
 .prefooter h2 {
   margin-bottom: 2.5rem;
 }
+.prefooter p {
+  max-width: 690px;
+  margin: 0 auto 2.2rem;
+}
 .hero {
   background: linear-gradient(90deg, #020024 7%, #26665b 59%, #0e2d33 100%);
   padding: 0 0 8rem;
@@ -246,7 +250,7 @@ img {
   margin: 0 auto 2.5rem;
 }
 .alternating-content {
-  margin: 3rem 0;
+  margin: 3rem 0 4rem;
 }
 .alternating-content .col-half:last-child {
   margin-left: 3%;
