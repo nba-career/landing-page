@@ -401,6 +401,9 @@ img {
   box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.35);
   border-radius: 4px;
 }
+.team-members .team-member img {
+  max-width: 300px;
+}
 .team-members .team-member h3 {
   margin: 1.5rem 0 0.5rem;
 }
