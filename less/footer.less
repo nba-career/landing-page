@@ -10,15 +10,21 @@
 
   p {
     color: @white;
+    margin-bottom: 0;
   }
 
   .social-icons {
     display: inline-block;
     margin: 0 2rem;
+    transition: 0.25s opacity cubic-bezier(0.63, 0.04, 0.42, 0.97);
 
     &:last-child {
       margin-right: 0;
     }
+    &:hover {
+      opacity: 0.4;
+    }
+
     i {
       font-size: 1.9rem;
       color: @white;

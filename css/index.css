@@ -216,13 +216,18 @@ img {
 }
 .main-footer p {
   color: #fcfcfc;
+  margin-bottom: 0;
 }
 .main-footer .social-icons {
   display: inline-block;
   margin: 0 2rem;
+  transition: 0.25s opacity cubic-bezier(0.63, 0.04, 0.42, 0.97);
 }
 .main-footer .social-icons:last-child {
   margin-right: 0;
+}
+.main-footer .social-icons:hover {
+  opacity: 0.4;
 }
 .main-footer .social-icons i {
   font-size: 1.9rem;
@@ -273,6 +278,7 @@ img {
 }
 @media (max-width: 768px) {
   .alternating-content .col-half:last-child {
+    margin-top: 2rem;
     margin-left: 0;
   }
 }
@@ -349,7 +355,11 @@ img {
   border-radius: 4px;
 }
 .team-members .team-member h3 {
-  margin: 1.5rem 0 2rem;
+  margin: 1.5rem 0 0.5rem;
+}
+.team-members .team-member h4 {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
 }
 .team-members .team-member .modal {
   position: fixed;
