@@ -4,4 +4,6 @@ year.innerHTML = new Date().getFullYear();
 
 
 // Set up animate on scroll library
-AOS.init();
+AOS.init({
+  disable: "mobile"
+});

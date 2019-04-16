@@ -2,7 +2,7 @@
 
 Are you tired of guessing which players are going to make a lasting impact in the NBA? Guess no more! This application will allow you to search current players and give you data that will give you insight into whether or not you should invest in this player for the long haul.
 
-This site serves as a marketing page for the main React application that will feature various players and attempt to predict the longevity of that player using existing data sets.
+This site serves as a marketing page for the main React application that will feature various players and attempt to predict the longevity of that player using existing data sets. Here's the [link](https://nbacareerlength.netlify.com/) to the site.
 
 I created a home page that describes the project to potential users and provides a way for users to login into the React application if they are interested in learning more about this project.
 
