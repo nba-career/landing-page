@@ -214,9 +214,21 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .main-footer .container {
+    display: block;
+    max-width: 300px;
+    text-align: center;
+  }
+}
 .main-footer p {
   color: #fcfcfc;
   margin-bottom: 0;
+}
+@media (max-width: 500px) {
+  .main-footer p {
+    margin-bottom: 1.2rem;
+  }
 }
 .main-footer .social-icons {
   display: inline-block;
@@ -293,9 +305,12 @@ img {
   border-radius: 1rem;
   border: 0;
   box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.35);
+  transition: 0.3s all cubic-bezier(0.88, 0.03, 0.25, 0.87);
 }
 .button:hover {
   cursor: pointer;
+  transform: translateY(-2px);
+  opacity: 0.9;
 }
 .button--small {
   padding: 1rem 1.5rem;

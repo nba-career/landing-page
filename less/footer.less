@@ -6,11 +6,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media @mobile {
+      display: block;
+      max-width: 300px;
+      text-align: center;
+    }
+
   }
 
   p {
     color: @white;
     margin-bottom: 0;
+    @media @mobile {
+      margin-bottom: 1.2rem;
+    }
   }
 
   .social-icons {
