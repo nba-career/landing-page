@@ -1,132 +1,130 @@
 .hero {
-  background: linear-gradient(90deg, rgba(2,0,36,1) 7%, rgba(38,102,91,1) 59%, rgba(14,45,51,1) 100%);
-  padding: 0 0 8rem;
-  background-size: cover;
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 7%, rgba(38, 102, 91, 1) 59%, rgba(14, 45, 51, 1) 100%);
+	padding: 0 0 8rem;
+	background-size: cover;
 }
 
 .hero--content {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 12rem 1.5rem 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 12rem 1.5rem 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
-  h1 {
-    color: @white;
-    margin-bottom: 1.5rem;
-  }
+	h1 {
+		color: @white;
+		margin-bottom: 2.5rem;
+	}
 
-  p {
-    color: @white;
-    max-width: 620px;
-    text-align: center;
-    margin: 0 auto 2.5rem;
-    line-height: 1.4;
-  }
+	p {
+		color: @white;
+		max-width: 600px;
+		text-align: center;
+		margin: 0 auto 2.5rem;
+		line-height: 1.4;
+	}
 }
 
 .alternating-content {
-  margin: 6rem 0 4rem;
-  
-  .col-half:last-child {
-    margin-left: 3%;
+	margin: 6rem 0 4rem;
 
-    @media @tablet {
-      margin-top: 2rem;
-      margin-left: 0;
-    }
-  }
+	.col-half:last-child {
+		margin-left: 3%;
 
-  h2 {
-    margin-bottom: 1.5rem;
-  }
+		@media @tablet {
+			margin-top: 2rem;
+			margin-left: 0;
+		}
+	}
 
+	h2 {
+		margin-bottom: 1.5rem;
+	}
 }
 
 .button {
-  text-decoration: none;
-  padding: 1.4rem 2rem;
-  display: inline-block;
-  font-size: 1.8rem;
-  border-radius: 1rem;
-  border: 0;
-  box-shadow: 0 8px 24px 0 rgba(0,0,0,0.35);
-  transition: 0.3s all cubic-bezier(0.88, 0.03, 0.25, 0.87);
-  
-  &:hover {
-    cursor: pointer;
-    transform: translateY(-2px);
-    opacity: 0.9;
-  }
+	text-decoration: none;
+	padding: 1.4rem 2rem;
+	display: inline-block;
+	font-size: 1.8rem;
+	border-radius: 1rem;
+	border: 0;
+	.box-shadow();
+	transition: 0.3s all cubic-bezier(0.88, 0.03, 0.25, 0.87);
+
+	&:hover {
+		cursor: pointer;
+		transform: translateY(-2px);
+		opacity: 0.9;
+	}
 }
 
-
 .button--small {
-  padding: 1rem 1.5rem;
+	padding: 1rem 1.5rem;
 }
 
 .button--white {
-  background: @white;
-  color: @black;
+	background: @white;
+	color: @black;
 }
 
 .middle-content {
-  margin: 8rem 0 10rem;
+	margin: 8rem 0 10rem;
 
-  @media @tablet {
-    margin: 4rem 0 6rem;
-  }
+	@media @tablet {
+		margin: 4rem 0 6rem;
+	}
 
-  .text-content {
-    max-width: 570px;
-    margin: 0 auto;
-    text-align: center;
+	.text-content {
+		max-width: 570px;
+		margin: 0 auto;
+		text-align: center;
 
-    h2 {
-      margin-bottom: 1rem;
-    }
-  }
+		h2 {
+			margin-bottom: 1rem;
+		}
+	}
 }
 
 .cards {
-  margin: 3rem 0 8rem;
-  @media @tablet {
-    margin: 3rem 0 5rem;
-  }
+	margin: 3rem 0 8rem;
+	@media @tablet {
+		margin: 3rem 0 5rem;
+	}
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
 
-  .card {
-    background: @westar;
-    padding: 2.5rem 3rem;
-    border-radius: 1rem;
-    box-shadow: 0 8px 24px 0 rgba(0,0,0,0.35);
-    max-width: 25%;
-    margin-bottom: 1.5rem;
-    @media (max-width: 1015px) {
-      max-width: 48%;
-      width: 50%;
-    }
+	.card {
+		background: @westar;
+		padding: 2.5rem 3rem;
+		border-radius: 1rem;
+		.box-shadow();
+		max-width: 25%;
+		margin-bottom: 1.5rem;
+		@media (max-width: 1015px) {
+			max-width: 48%;
+			width: 50%;
+		}
 
-    @media @tablet {
-      max-width: 100%;
-      width: 100%;
-    }
+		@media @tablet {
+			max-width: 100%;
+			width: 100%;
+			margin-bottom: 2.5rem;
+		}
 
-    h3 {
-      font-size: 2.4rem;
-    }
+		h3 {
+			font-size: 2.4rem;
+		}
 
-    li {
-      font-size: 1.8rem;
-      line-height: 1.2;
-      margin-top: 2rem;
-    }
-  }
+		li {
+			font-size: 1.8rem;
+			line-height: 1.2;
+			margin-top: 2rem;
+		}
+	}
 }
-
