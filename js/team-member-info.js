@@ -4,49 +4,49 @@ const teamMemberInfo = [
     img: 'https://github.com/bitcointroy.png',
     link: 'https://github.com/bitcointroy',
 		title: 'Team Lead',
-		bio: 'Lorem ipsum stuff'
+		bio: 'Troy was the team lead on this project.'
 	},
 	{
 		name: 'Brooks Vinyard',
     img: 'https://github.com/brooksvinyard.png',
     link: 'https://github.com/brooksvinyard',
 		title: 'Backend Developer',
-		bio: 'Lorem ipsum stuff'
+		bio: 'Brooks developed the API endpoints for this application.'
 	},
 	{
 		name: "Daniel O'Neill",
     img: 'https://github.com/danpatrickoneill.png',
     link: 'https://github.com/danpatrickoneill',
 		title: 'Frontend Developer',
-		bio: 'Lorem ipsum stuff'
+		bio: 'Dan developed the React application for this project.'
 	},
 	{
 		name: 'Seth Lachman',
     img: 'https://github.com/stlachman.png',
     link: 'https://github.com/stlachman',
 		title: 'UI Developer',
-		bio: 'I developed the User Interface for this marketing site!'
+		bio: 'Seth designed and developed the User Interface for this marketing site.'
 	},
 	{
 		name: 'Rick Clayton',
     img: 'https://github.com/rick1270.png',
     link: 'https://github.com/rick1270',
 		title: 'Data Science',
-		bio: 'Lorem ipsum stuff'
+		bio: 'Rick gathered data and created the model for this project.'
 	},
 	{
 		name: 'Daniel Carter',
     img: 'https://github.com/tesseract314.png',
     link: 'https://github.com/tesseract314',
 		title: 'Data Science',
-		bio: 'Lorem ipsum stuff'
+		bio: 'Daniel gathered data and created the model for this project.'
 	},
 	{
 		name: 'Christopher Tolbert',
     img: 'https://github.com/hughjafro.png',
     link: 'https://github.com/hughjafro',
 		title: 'Data Science',
-		bio: 'Lorem ipsum stuff'
+		bio: 'Christopher gathered data and created the model for this project.'
 	}
 ];
 
