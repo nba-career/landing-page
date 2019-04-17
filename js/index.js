@@ -21,16 +21,16 @@ const navigation = document.querySelectorAll('.main-navigation a');
 
 // Convert nodelist to array
 Array.from(navigation).map((navItem, index) => {
-  // Set text content of each navigation item 
-  navItem.textContent = navItems[`${index}`][`nav${index + 1}`];
-  // Set href of each navigation item
+	// Set text content of each navigation item
+	navItem.textContent = navItems[`${index}`][`nav${index + 1}`];
+	// Set href of each navigation item
 	navItem.href = navItems[`${index}`].href;
 });
 
 function showMobile(event) {
 	const hero = document.querySelector('.hero');
-  const mobileMenu = document.querySelector('.nav-bar');
-  // If scroll position on y axis is greater than the height of the hero element, add class to reduce height of navbar
+	const mobileMenu = document.querySelector('.nav-bar');
+	// If scroll position on y axis is greater than the height of the hero element, add class to reduce height of navbar
 	if (window.scrollY > hero.offsetHeight) {
 		mobileMenu.classList.add('in-view');
 	} else {
