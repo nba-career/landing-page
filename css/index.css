@@ -185,6 +185,9 @@ img {
   align-items: center;
   flex-wrap: wrap;
 }
+.bold {
+  font-weight: bold;
+}
 .max-400 {
   max-width: 400px;
 }
@@ -331,6 +334,7 @@ img {
   max-width: 620px;
   text-align: center;
   margin: 0 auto 2.5rem;
+  line-height: 1.4;
 }
 .alternating-content {
   margin: 3rem 0 4rem;
@@ -399,31 +403,51 @@ img {
   justify-content: space-between;
 }
 .cards .card {
-  background: #fcfcfc;
+  background: #e0e2db;
   padding: 2.5rem 3rem;
   border-radius: 1rem;
   box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.35);
   max-width: 25%;
   margin-bottom: 1.5rem;
 }
+@media (max-width: 1015px) {
+  .cards .card {
+    max-width: 48%;
+    width: 50%;
+  }
+}
 @media (max-width: 850px) {
   .cards .card {
     max-width: 100%;
+    width: 100%;
   }
 }
+.cards .card h3 {
+  font-size: 2.4rem;
+}
+.cards .card li {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  margin-top: 2rem;
+}
 .team-members {
-  margin: 3.5rem 0;
+  margin: 4.5rem 0;
 }
 .team-members h2 {
   font-size: 2.8rem;
 }
-.team-members .container {
+.team-members .team-intro {
+  text-align: center;
+}
+.team-members .team-intro p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.team-members .team-member-info {
+  margin-top: 5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
-.team-members .team-member-info {
-  margin-top: 4rem;
 }
 .team-members .team-member {
   background: #e0e2db;

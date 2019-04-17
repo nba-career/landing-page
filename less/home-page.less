@@ -22,6 +22,7 @@
     max-width: 620px;
     text-align: center;
     margin: 0 auto 2.5rem;
+    line-height: 1.4;
   }
 }
 
@@ -101,14 +102,30 @@
   }
 
   .card {
-    background: @white;
+    background: @westar;
     padding: 2.5rem 3rem;
     border-radius: 1rem;
     box-shadow: 0 8px 24px 0 rgba(0,0,0,0.35);
     max-width: 25%;
     margin-bottom: 1.5rem;
+    @media (max-width: 1015px) {
+      max-width: 48%;
+      width: 50%;
+    }
+
     @media @tablet {
       max-width: 100%;
+      width: 100%;
+    }
+
+    h3 {
+      font-size: 2.4rem;
+    }
+
+    li {
+      font-size: 1.8rem;
+      line-height: 1.2;
+      margin-top: 2rem;
     }
   }
 }
