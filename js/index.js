@@ -1,31 +1,31 @@
 const navItems = [
 	{
-		nav1: 'Home',
-		href: '/'
+		text: 'Home',
+		link: '/'
 	},
 	{
-		nav2: 'About Us',
-		href: '/about-us.html'
+		text: 'About Us',
+		link: '/about-us.html'
 	},
 	{
-		nav3: 'Login',
-		href: 'https://nbacp.netlify.com/login'
+		text: 'Login',
+		link: 'https://nbacp.netlify.com/login'
 	},
 	{
-		nav4: 'Register',
-		href: 'https://nbacp.netlify.com/register'
+		text: 'Register',
+		link: 'https://nbacp.netlify.com/register'
 	}
 ];
 
-const navigation = document.querySelectorAll('.main-navigation a');
+function NavItem(navData) {
+	return `<a href="${navData.link}">${navData.text}</a>`;
+}
 
-// Convert nodelist to array
-Array.from(navigation).map((navItem, index) => {
-	// Set text content of each navigation item
-	navItem.textContent = navItems[`${index}`][`nav${index + 1}`];
-	// Set href of each navigation item
-	navItem.href = navItems[`${index}`].href;
-});
+function NavItemList(navItems) {
+	return navItems.map(NavItem).join('');
+}
+
+document.querySelector('.main-navigation').innerHTML = NavItemList(navItems);
 
 function showMobile(event) {
 	const hero = document.querySelector('.hero');
