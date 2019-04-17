@@ -10,7 +10,7 @@ I designed both the home page and about page for this site and I also chose the 
 
 I used an array of objects to populate the navigation menu so that I wouldn't need to repeat the content on the home page and the about page.
 
-I created a Class constructor and used an array of objects to populate the team data (titles, names, and images). 
+I created multiple functions and an array of objects with all of the team data (titles, names, links, and images) to create a reusable team member card to keep my code DRY.
 
 On the about page, I created a modal component using JavaScript to display the biographies of each team member. If a new team member is added or removed from this project, the component will work without breaking.
 
