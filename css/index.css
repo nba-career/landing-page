@@ -160,7 +160,7 @@ h3 {
 }
 p {
   font-size: 1.8rem;
-  line-height: 1.2;
+  line-height: 1.4;
   color: #191919;
   margin: 0 0 0.8rem 0;
 }
@@ -327,11 +327,11 @@ img {
 }
 .hero--content h1 {
   color: #fcfcfc;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 .hero--content p {
   color: #fcfcfc;
-  max-width: 620px;
+  max-width: 600px;
   text-align: center;
   margin: 0 auto 2.5rem;
   line-height: 1.4;
