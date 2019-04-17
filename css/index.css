@@ -422,6 +422,9 @@ img {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.team-members .team-member-info {
+  margin-top: 4rem;
+}
 .team-members .team-member {
   background: #e0e2db;
   padding: 2rem;

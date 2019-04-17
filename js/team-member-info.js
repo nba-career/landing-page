@@ -48,12 +48,15 @@ class TeamMember {
 		this.teamCard = teamCard;
 		this.name = this.teamCard.querySelector('h3');
 		this.title = this.teamCard.querySelector('h4');
-		this.image = this.teamCard.querySelector('img');
-		this.content = this.teamCard.querySelector('.modal--content p');
+    this.image = this.teamCard.querySelector('img');
+    this.modalName = this.teamCard.querySelector('.modal--content h3');
+    this.content = this.teamCard.querySelector('.modal--content p');
+  
 
 		this.teamMemberInfo = teamMemberInfo;
 		this.name.textContent = teamMemberInfo.name;
-		this.title.textContent = teamMemberInfo.title;
+    this.title.textContent = teamMemberInfo.title;
+    this.modalName.textContent = teamMemberInfo.name;
     this.image.src = teamMemberInfo.img;
     this.image.alt = teamMemberInfo.name;
 		this.content.textContent = teamMemberInfo.bio;
