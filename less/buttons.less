@@ -1,0 +1,30 @@
+.button {
+	text-decoration: none;
+	padding: 1.4rem 2rem;
+	display: inline-block;
+	font-size: 1.8rem;
+	border-radius: 1rem;
+	border: 0;
+	.box-shadow();
+	transition: 0.3s all cubic-bezier(0.88, 0.03, 0.25, 0.87);
+
+	&:hover {
+		cursor: pointer;
+		transform: translateY(-2px);
+		opacity: 0.9;
+	}
+}
+
+.button--small {
+	padding: 1rem 1.5rem;
+}
+
+.button--white {
+	background: @white;
+	color: @black;
+}
+
+.button--green {
+  background: @green;
+  color: @white;
+}

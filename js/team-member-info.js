@@ -11,14 +11,14 @@ const teamMemberInfo = [
 		img: 'https://github.com/brooksvinyard.png',
 		link: 'https://github.com/brooksvinyard',
 		title: 'Backend Developer',
-		bio: 'Brooks developed the API endpoints for this application.'
+		bio: 'Brooks Vinyard is a full stack developer currently living in San Francisco, CA.'
 	},
 	{
 		name: "Daniel O'Neill",
 		img: 'https://github.com/danpatrickoneill.png',
 		link: 'https://github.com/danpatrickoneill',
 		title: 'Frontend Developer',
-		bio: 'Dan developed the React application for this project.'
+		bio: 'Dan developed the React application for this project. He is a full stack developer living in Long Island, NY'
 	},
 	{
 		name: 'Seth Lachman',
@@ -32,7 +32,7 @@ const teamMemberInfo = [
 		img: 'https://github.com/rick1270.png',
 		link: 'https://github.com/rick1270',
 		title: 'Data Scientist',
-		bio: 'Rick gathered data and created the model for this project.'
+		bio: 'After a successful 25 years in sales and management, in which Rick relied heavily on quantifiable objectives and metrics, Rick made the decision to combine this experience with his love of data and become a data scientist. This portion of that journey has begun at Lambda School where Rick\'s decision has turned into a passion.'
 	},
 	{
 		name: 'Daniel Carter',
@@ -46,7 +46,7 @@ const teamMemberInfo = [
 		img: 'https://github.com/hughjafro.png',
 		link: 'https://github.com/hughjafro',
 		title: 'Data Scientist',
-		bio: 'Christopher gathered data and created the model for this project.'
+		bio: 'Christopher gathered data and helped create the model for this project.'
 	}
 ];
 
@@ -55,7 +55,7 @@ function TeamCard(cardData) {
           <img src="${cardData.img}" alt="${cardData.title}">
           <h3>${cardData.name}</h3>
           <h4>${cardData.title}</h4>
-          <button class="button button--white button--small">Read Bio</button>
+          <button class="button button--green button--small">Read Bio</button>
           <div class="modal" style="display: none">
             <div class="overlay"></div>
             <div class="modal--content">
