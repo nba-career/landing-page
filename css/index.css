@@ -278,6 +278,30 @@ img {
 .main-navigation a:hover::before {
   width: 100%;
 }
+.hero {
+  background: linear-gradient(90deg, #020024 7%, #26665b 59%, #0e2d33 100%);
+  padding: 0 0 8rem;
+  background-size: cover;
+}
+.hero--content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 12rem 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero--content h1 {
+  color: #fcfcfc;
+  margin-bottom: 2.5rem;
+}
+.hero--content p {
+  color: #fcfcfc;
+  max-width: 530px;
+  text-align: center;
+  margin: 0 auto 2.5rem;
+  line-height: 1.4;
+}
 .main-footer {
   background: #889696;
   padding: 3rem 0;
@@ -337,30 +361,6 @@ img {
   max-width: 690px;
   margin: 0 auto 2.2rem;
 }
-.hero {
-  background: linear-gradient(90deg, #020024 7%, #26665b 59%, #0e2d33 100%);
-  padding: 0 0 8rem;
-  background-size: cover;
-}
-.hero--content {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 12rem 1.5rem 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.hero--content h1 {
-  color: #fcfcfc;
-  margin-bottom: 2.5rem;
-}
-.hero--content p {
-  color: #fcfcfc;
-  max-width: 530px;
-  text-align: center;
-  margin: 0 auto 2.5rem;
-  line-height: 1.4;
-}
 .alternating-content {
   margin: 6rem 0 4rem;
 }
@@ -381,8 +381,8 @@ img {
     margin-top: 2rem;
   }
 }
-@support not (display: grid) {
-  .col-half:last-child {
+@supports not (display: grid) {
+  .alternating-content .col-half:last-child {
     margin-left: 3%;
   }
 }
