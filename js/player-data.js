@@ -26,7 +26,7 @@ const statData = [
 ];
 
 function PlayerItem(playerData) {
-	return `<div class="card" data-aos="flip-left" data-aos-duration="650" data-aos-easing="ease-in-sine">
+	return `<div class="card">
             <h3>${playerData.playerName}</h3>
             <ul>
               <li><span class="bold">Years in the NBA:</span> ${playerData.currentYears}</li>
