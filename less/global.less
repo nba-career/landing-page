@@ -52,6 +52,24 @@ img {
   height: auto;
 }
 
+.wrapper::before {
+  content: "";
+  display: block;
+  width: 170vw;
+  height: 45vw;
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+  background-color: @westar;
+  position: absolute;
+  top: 30vw;
+  right: -40vw;
+  z-index: -1;
+
+  @media @tablet {
+    display: none;
+  }
+}
+
 .container {
   max-width: 1280px;
   width: 100%;
@@ -79,13 +97,18 @@ img {
 .col-img {
   .flex-center();
 }
-.col-half {
-  width: 48%;
-  padding-right: 1%;
 
-  @media @tablet {
-    width: 100%;
-    padding: 0 2%;
+@supports not @grid {
+  .col-half {
+    width: 48%;
+    padding-right: 1%;
+
+    @media @tablet {
+      width: 100%;
+      padding: 0 2%;
+    }
   }
 }
+
+
 
