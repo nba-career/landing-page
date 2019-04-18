@@ -25,7 +25,7 @@ const teamMemberInfo = [
 		img: 'https://github.com/stlachman.png',
 		link: 'https://github.com/stlachman',
 		title: 'UI Developer',
-		bio: 'Seth designed and developed the User Interface for this marketing site. He also wrote the copy for this site and isn\'t used to referring to himself in the third person. Seth loves to experiment with the latest web technologies on Codepen. Checkout his latest projects on Github.'
+		bio: 'Seth designed and developed the User Interface for this marketing site. He also wrote the copy for this site and isn\'t accustomed to referring to himself in the third person. Seth loves to experiment with the latest web technologies on Codepen. Checkout his latest projects on Github.'
 	},
 	{
 		name: 'Rick Clayton',
