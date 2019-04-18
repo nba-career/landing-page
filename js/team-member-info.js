@@ -15,7 +15,7 @@ const teamMemberInfo = [
 	},
 	{
 		name: "Daniel O'Neill",
-		img: 'https://github.com/danpatrickoneill.png',
+		img: 'img/dan-oneill-cropped.jpg',
 		link: 'https://github.com/danpatrickoneill',
 		title: 'Frontend Developer',
 		bio: 'Dan developed the React application for this project. He is a full stack developer living in Long Island, NY'
@@ -46,7 +46,7 @@ const teamMemberInfo = [
 		img: 'https://github.com/hughjafro.png',
 		link: 'https://github.com/hughjafro',
 		title: 'Data Scientist',
-		bio: 'Christopher gathered data and helped create the model for this project.'
+		bio: 'Chris is a data enthusiast with a penchant for storytelling with numbers. Though classically trained in the fine art of spreadsheet manipulation, Chris is being transformed into a data science stalwart. He loves long nights of web scraping, data wrangling by the fireplace and sipping on Perrier while developing predictive models.'
 	}
 ];
 
