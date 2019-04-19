@@ -1,8 +1,34 @@
 # NBA Career Longevity Predictor
 
-Are you tired of guessing which players are going to make a lasting impact in the NBA? Guess no more! This application will allow you to search current players and give you data that will give you insight into whether or not you should invest in this player for the long haul.
+Are you tired of guessing which players are going to make a lasting impact in the NBA? Guess no more! This application will let you search current players and give you insightful data into whether or not you should invest in the player you are concerned with for the long haul.
 
-This site serves as a marketing page for the main React application that will feature various players and attempt to predict the longevity of that player using existing data sets. Here's the link [https://nbacareerlength.netlify.com/](https://nbacareerlength.netlify.com/) to the site.
+This site serves as a marketing page for the main React application that will feature various players and attempt to predict the longevity of that player using existing data sets. Here's the link [https://nbacareerlength.netlify.com/](https://nbacareerlength.netlify.com/) to the marketing site which provides a few links to get to the main application.
+
+## Grading Rubric Checklist
+
+1. Team Contribution
+* I communicated changes to the team through Slack and Trello. 
+* I also paired with the Front End Architect to go over the application and then I contributed to the React App by forking the repo, adding styles through Material UI, and then creating a pull request to merge my changes back into the React App ([link here](https://github.com/stlachman/frontend/commit/6a48439f42036a8e14df9d6eca51830cea3cda0c)).
+
+2. HTML/CSS
+* I created my own design and used proper positition and layout techniques including the flexbox and grid modules on the site.
+* LESS was used to organize my code and make it easier to read and digest for another developer.
+* I researched and used the Animated on Scroll library to create transitions for the site.
+
+3. Responsiveness 
+* The site is responsive down through the mobile size (below 500px).
+* Responsive units (REMS) were used for font-sizing and the site looks professional at 800px and above. 
+
+4. JavaScript Fundamentals
+* Objects were created to create the modal component. 
+* .map() used to create team member card and player cards on the home page.
+
+5. Applied JavaScript
+* Modal component created on about page to display biographies of team members on click.
+* Event listeners used to track scroll position of user to resize sticky navigation.
+
+
+### Brief overview of site and technology decisions
 
 The home page of this site describes the project to potential users and provides a way for users to login into the React application if they are interested in testing the features of this product. There is also an about page that lists all of the team members of this project.
 
